@@ -1,0 +1,65 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "level_8",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "json": {
+    "level": [
+      {
+        "position": {
+          "x": 0,
+          "y": 300
+        },
+        "colors": [],
+        "hideCnt": 0,
+        "ad": false
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": 40
+        },
+        "colors": [],
+        "hideCnt": 0,
+        "ad": false
+      },
+      {
+        "position": {
+          "x": -248,
+          "y": -120
+        },
+        "colors": [],
+        "hideCnt": 0,
+        "ad": false
+      },
+      {
+        "position": {
+          "x": 248,
+          "y": -120
+        },
+        "colors": [],
+        "hideCnt": 0,
+        "ad": false
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": -220
+        },
+        "colors": [],
+        "hideCnt": 0,
+        "ad": false
+      },
+      {
+        "position": {
+          "x": 0,
+          "y": -480
+        },
+        "colors": [],
+        "hideCnt": 0,
+        "ad": false
+      }
+    ]
+  }
+}

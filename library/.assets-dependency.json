@@ -1,0 +1,20 @@
+{
+  "path": {
+    "/Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/anims/water-wave.effect": [
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/vs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/cc-global.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/fs.chunk",
+      "/Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/chunks/vs.chunk",
+      "/Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/chunks/cc-global.chunk",
+      "/Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/chunks/fs.chunk"
+    ]
+  },
+  "uuid": {
+    "/Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/anims/water-material-001.mtl": [
+      "c8d07dec-286d-4a31-9339-531b91fd63cf"
+    ],
+    "/Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/anims/water-material.mtl": [
+      "c8d07dec-286d-4a31-9339-531b91fd63cf"
+    ]
+  }
+}

@@ -1,0 +1,4379 @@
+{
+  "modules": {
+    "cce:/internal/x/cc": {
+      "mTimestamp": 22900.79504200071,
+      "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
+      "imports": [
+        {
+          "value": "cce:/internal/x/cc-fu/base",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 14
+            },
+            "end": {
+              "line": 1,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/gfx-webgl",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 14
+            },
+            "end": {
+              "line": 2,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/gfx-webgl2",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 14
+            },
+            "end": {
+              "line": 3,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/gfx-empty",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 14
+            },
+            "end": {
+              "line": 4,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/3d",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 14
+            },
+            "end": {
+              "line": 5,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/animation",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 14
+            },
+            "end": {
+              "line": 6,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/skeletal-animation",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 14
+            },
+            "end": {
+              "line": 7,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/2d",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/sorting",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 14
+            },
+            "end": {
+              "line": 9,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/ui",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 14
+            },
+            "end": {
+              "line": 10,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/particle",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 14
+            },
+            "end": {
+              "line": 11,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/particle-2d",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 14
+            },
+            "end": {
+              "line": 12,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-framework",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 14
+            },
+            "end": {
+              "line": 13,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-2d-framework",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 14
+            },
+            "end": {
+              "line": 14,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-2d-box2d-wasm",
+          "resolved": "__unresolved_14",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 14
+            },
+            "end": {
+              "line": 15,
+              "column": 59
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/intersection-2d",
+          "resolved": "__unresolved_15",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 14
+            },
+            "end": {
+              "line": 16,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/primitive",
+          "resolved": "__unresolved_16",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 14
+            },
+            "end": {
+              "line": 17,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/profiler",
+          "resolved": "__unresolved_17",
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 14
+            },
+            "end": {
+              "line": 18,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/geometry-renderer",
+          "resolved": "__unresolved_18",
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 14
+            },
+            "end": {
+              "line": 19,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/audio",
+          "resolved": "__unresolved_19",
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 14
+            },
+            "end": {
+              "line": 20,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/video",
+          "resolved": "__unresolved_20",
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 14
+            },
+            "end": {
+              "line": 21,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/xr",
+          "resolved": "__unresolved_21",
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 14
+            },
+            "end": {
+              "line": 22,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/light-probe",
+          "resolved": "__unresolved_22",
+          "loc": {
+            "start": {
+              "line": 23,
+              "column": 14
+            },
+            "end": {
+              "line": 23,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/terrain",
+          "resolved": "__unresolved_23",
+          "loc": {
+            "start": {
+              "line": 24,
+              "column": 14
+            },
+            "end": {
+              "line": 24,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/webview",
+          "resolved": "__unresolved_24",
+          "loc": {
+            "start": {
+              "line": 25,
+              "column": 14
+            },
+            "end": {
+              "line": 25,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/tween",
+          "resolved": "__unresolved_25",
+          "loc": {
+            "start": {
+              "line": 26,
+              "column": 14
+            },
+            "end": {
+              "line": 26,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/tiled-map",
+          "resolved": "__unresolved_26",
+          "loc": {
+            "start": {
+              "line": 27,
+              "column": 14
+            },
+            "end": {
+              "line": 27,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/spine",
+          "resolved": "__unresolved_27",
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 14
+            },
+            "end": {
+              "line": 28,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/dragon-bones",
+          "resolved": "__unresolved_28",
+          "loc": {
+            "start": {
+              "line": 29,
+              "column": 14
+            },
+            "end": {
+              "line": 29,
+              "column": 50
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/custom-pipeline",
+          "resolved": "__unresolved_29",
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 14
+            },
+            "end": {
+              "line": 30,
+              "column": 53
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/base"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl2"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/gfx-empty"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/3d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/animation"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/skeletal-animation"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/sorting"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/ui"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/particle"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/particle-2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-framework"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-framework"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-box2d-wasm"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/intersection-2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/primitive"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/profiler"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/geometry-renderer"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/audio"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/video"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/xr"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/light-probe"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/terrain"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/webview"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/tween"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/tiled-map"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/spine"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/dragon-bones"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/custom-pipeline"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/x/prerequisite-imports": {
+      "mTimestamp": 12392663.2215,
+      "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
+      "imports": [
+        {
+          "value": "file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 35
+            },
+            "end": {
+              "line": 5,
+              "column": 183
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/EventMng.ts",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 199
+            },
+            "end": {
+              "line": 5,
+              "column": 372
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/LocalStorage.ts",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 388
+            },
+            "end": {
+              "line": 5,
+              "column": 565
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/Pool.ts",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 581
+            },
+            "end": {
+              "line": 5,
+              "column": 750
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/Rand.ts",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 766
+            },
+            "end": {
+              "line": 5,
+              "column": 935
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/ResLoader.ts",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 951
+            },
+            "end": {
+              "line": 5,
+              "column": 1125
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/Toolkit.ts",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1141
+            },
+            "end": {
+              "line": 5,
+              "column": 1313
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/CwgConstant.ts",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1329
+            },
+            "end": {
+              "line": 5,
+              "column": 1503
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/CwgPools.ts",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1519
+            },
+            "end": {
+              "line": 5,
+              "column": 1690
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/CwgState.ts",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1706
+            },
+            "end": {
+              "line": 5,
+              "column": 1877
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/FunlandInfo.ts",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1893
+            },
+            "end": {
+              "line": 5,
+              "column": 2067
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/Glass.ts",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2083
+            },
+            "end": {
+              "line": 5,
+              "column": 2251
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/SoundComp.ts",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2267
+            },
+            "end": {
+              "line": 5,
+              "column": 2439
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/VwEffect.ts",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2455
+            },
+            "end": {
+              "line": 5,
+              "column": 2626
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/VwFunland.ts",
+          "resolved": "__unresolved_14",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2642
+            },
+            "end": {
+              "line": 5,
+              "column": 2814
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/VwPlay.ts",
+          "resolved": "__unresolved_15",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2830
+            },
+            "end": {
+              "line": 5,
+              "column": 2999
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/VwUi.ts",
+          "resolved": "__unresolved_16",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 3015
+            },
+            "end": {
+              "line": 5,
+              "column": 3182
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/glass-anims/GlassFlowing.ts",
+          "resolved": "__unresolved_17",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 3198
+            },
+            "end": {
+              "line": 5,
+              "column": 3385
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/glass-anims/GlassPourOut.ts",
+          "resolved": "__unresolved_18",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 3401
+            },
+            "end": {
+              "line": 5,
+              "column": 3588
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/glass-anims/WaterSurface.ts",
+          "resolved": "__unresolved_19",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 3604
+            },
+            "end": {
+              "line": 5,
+              "column": 3791
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/other-anims/EfParticleSystem2D.ts",
+          "resolved": "__unresolved_20",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 3807
+            },
+            "end": {
+              "line": 5,
+              "column": 4000
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/prop-anims/VwAddGlass.ts",
+          "resolved": "__unresolved_21",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 4016
+            },
+            "end": {
+              "line": 5,
+              "column": 4200
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/prop-anims/VwExchange.ts",
+          "resolved": "__unresolved_22",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 4216
+            },
+            "end": {
+              "line": 5,
+              "column": 4400
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/EdFunlandInfo.ts",
+          "resolved": "__unresolved_23",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 4416
+            },
+            "end": {
+              "line": 5,
+              "column": 4594
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/EdGlass.ts",
+          "resolved": "__unresolved_24",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 4610
+            },
+            "end": {
+              "line": 5,
+              "column": 4782
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/UiEdColorCount.ts",
+          "resolved": "__unresolved_25",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 4798
+            },
+            "end": {
+              "line": 5,
+              "column": 4977
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/UiEdColumn.ts",
+          "resolved": "__unresolved_26",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 4993
+            },
+            "end": {
+              "line": 5,
+              "column": 5168
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/UiEdColumnCount.ts",
+          "resolved": "__unresolved_27",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 5184
+            },
+            "end": {
+              "line": 5,
+              "column": 5364
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/UiEdColumnCtrl.ts",
+          "resolved": "__unresolved_28",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 5380
+            },
+            "end": {
+              "line": 5,
+              "column": 5559
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/VwEdFunland.ts",
+          "resolved": "__unresolved_29",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 5575
+            },
+            "end": {
+              "line": 5,
+              "column": 5751
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/VwEdGlassSetting.ts",
+          "resolved": "__unresolved_30",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 5767
+            },
+            "end": {
+              "line": 5,
+              "column": 5948
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/VwEdPlay.ts",
+          "resolved": "__unresolved_31",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 5964
+            },
+            "end": {
+              "line": 5,
+              "column": 6137
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/VwEdUi.ts",
+          "resolved": "__unresolved_32",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 6153
+            },
+            "end": {
+              "line": 5,
+              "column": 6324
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/EventMng.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/LocalStorage.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/Pool.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/Rand.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/ResLoader.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/Toolkit.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/CwgConstant.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/CwgPools.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/CwgState.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/FunlandInfo.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/Glass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/SoundComp.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/VwEffect.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/VwFunland.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/VwPlay.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/VwUi.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/glass-anims/GlassFlowing.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/glass-anims/GlassPourOut.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/glass-anims/WaterSurface.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/other-anims/EfParticleSystem2D.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/prop-anims/VwAddGlass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/prop-anims/VwExchange.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/EdFunlandInfo.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/EdGlass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/UiEdColorCount.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/UiEdColumn.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/UiEdColumnCount.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/UiEdColumnCtrl.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/VwEdFunland.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/VwEdGlassSetting.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/VwEdPlay.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/VwEdUi.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": {
+      "mTimestamp": {
+        "mtime": 1715411209000,
+        "uuid": "b2bd1fa7-8d7c-49c5-a158-df29a6d3a594"
+      },
+      "chunkId": "31e3c2f26607ebb67e59edfae1b48b9458089fb9",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 220
+            },
+            "end": {
+              "line": 1,
+              "column": 224
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/EventMng.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "848eeef0-a6e1-4def-b111-6186906a3174"
+      },
+      "chunkId": "e242d6503af49b73afe7dce4c2fe08581109cc25",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 26
+            },
+            "end": {
+              "line": 9,
+              "column": 30
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/LocalStorage.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "bb7cefb4-3fa5-4f5a-87f4-acd08d218a78"
+      },
+      "chunkId": "9012a80e30af0ad357d8b892373126721d21ed52",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 18
+            },
+            "end": {
+              "line": 9,
+              "column": 22
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/Pool.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "d827e19e-4c96-40de-883c-fbb62fa07779"
+      },
+      "chunkId": "b4eb5d65d6f3f3b69047199ade5bee406acc0b81",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 50
+            },
+            "end": {
+              "line": 9,
+              "column": 54
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/Rand.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "51d21bab-e1e6-44f8-882f-9fe987e143cd"
+      },
+      "chunkId": "63f8a10ecb4b3b2f20edc5ff7a1a1f9380bfb059",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/ResLoader.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "a7eb35ac-8be5-4691-abad-c2ad49c140f3"
+      },
+      "chunkId": "4c3f6ff1a671cd9fc53633e91f65913c644368c7",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 38
+            },
+            "end": {
+              "line": 9,
+              "column": 42
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/Toolkit.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "0db2358f-d238-47d9-99ff-603de41b577a"
+      },
+      "chunkId": "9fb9cbbdb0ce153f819989ff8ef7ab988ae05ba9",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/CwgConstant.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "13767ef1-60ea-456b-8f8a-35d0f291d017"
+      },
+      "chunkId": "ffc966463a72946eec914b8cc1cc5673b5913dd1",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/CwgPools.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "ff07e3a0-9849-427e-a59e-fcd0578fdde5"
+      },
+      "chunkId": "5dca099983ebf78afe950188656d0afa14afec12",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 55
+            },
+            "end": {
+              "line": 9,
+              "column": 59
+            }
+          }
+        },
+        {
+          "value": "../common/Pool",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 17
+            },
+            "end": {
+              "line": 10,
+              "column": 33
+            }
+          }
+        },
+        {
+          "value": "./Glass",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 18
+            },
+            "end": {
+              "line": 11,
+              "column": 27
+            }
+          }
+        },
+        {
+          "value": "./glass-anims/GlassPourOut",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 25
+            },
+            "end": {
+              "line": 12,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "./glass-anims/GlassFlowing",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 25
+            },
+            "end": {
+              "line": 13,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "../common/Toolkit",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 20
+            },
+            "end": {
+              "line": 14,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "./other-anims/EfParticleSystem2D",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 35
+            },
+            "end": {
+              "line": 17,
+              "column": 69
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/Pool.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/Glass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/glass-anims/GlassPourOut.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/glass-anims/GlassFlowing.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/Toolkit.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/other-anims/EfParticleSystem2D.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/code-quality/cr.mjs": {
+      "mTimestamp": 1764082540377,
+      "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
+      "imports": [],
+      "type": "esm",
+      "resolutions": []
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/Glass.ts": {
+      "mTimestamp": {
+        "mtime": 1764088995861.9536,
+        "uuid": "a00bdc2f-0af5-44c4-b513-b20e8131231d"
+      },
+      "chunkId": "a86f67c137dc20e4630202c69c025b7ebe6fde60",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 94
+            },
+            "end": {
+              "line": 9,
+              "column": 98
+            }
+          }
+        },
+        {
+          "value": "./CwgConstant",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 38
+            },
+            "end": {
+              "line": 10,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "./glass-anims/WaterSurface",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 25
+            },
+            "end": {
+              "line": 11,
+              "column": 53
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/CwgConstant.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/glass-anims/WaterSurface.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/glass-anims/WaterSurface.ts": {
+      "mTimestamp": {
+        "mtime": 1764085580880.5815,
+        "uuid": "cad1e1a7-d4b2-4c44-a5ab-42bddfd695ea"
+      },
+      "chunkId": "09ff9ffe64b674fac1b987001a6cedb23b625e83",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 67
+            },
+            "end": {
+              "line": 9,
+              "column": 71
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/glass-anims/GlassPourOut.ts": {
+      "mTimestamp": {
+        "mtime": 1764089963519.3335,
+        "uuid": "19a27875-4608-4964-b69f-906e08556a2f"
+      },
+      "chunkId": "fcf039c04f4136b436d8166e7e1474fa91d32a36",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 106
+            },
+            "end": {
+              "line": 9,
+              "column": 110
+            }
+          }
+        },
+        {
+          "value": "../Glass",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 18
+            },
+            "end": {
+              "line": 10,
+              "column": 28
+            }
+          }
+        },
+        {
+          "value": "../CwgConstant",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 38
+            },
+            "end": {
+              "line": 11,
+              "column": 54
+            }
+          }
+        },
+        {
+          "value": "../../common/Toolkit",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 20
+            },
+            "end": {
+              "line": 12,
+              "column": 42
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/Glass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/CwgConstant.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/Toolkit.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/glass-anims/GlassFlowing.ts": {
+      "mTimestamp": {
+        "mtime": 1764089014367.1501,
+        "uuid": "2db6d2a8-dd1a-4313-a5f1-8b8282ccea70"
+      },
+      "chunkId": "1c5498d5c984c2beedf53328efb8697ba46d98db",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 66
+            },
+            "end": {
+              "line": 11,
+              "column": 70
+            }
+          }
+        },
+        {
+          "value": "../../common/Toolkit",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 20
+            },
+            "end": {
+              "line": 12,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "../SoundComp",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 22
+            },
+            "end": {
+              "line": 13,
+              "column": 36
+            }
+          }
+        },
+        {
+          "value": "../Glass",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 18
+            },
+            "end": {
+              "line": 14,
+              "column": 28
+            }
+          }
+        },
+        {
+          "value": "../CwgConstant",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 38
+            },
+            "end": {
+              "line": 15,
+              "column": 54
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/Toolkit.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/SoundComp.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/Glass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/CwgConstant.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/SoundComp.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "cdd300a2-d55a-4dda-ab80-f36977c4abc7"
+      },
+      "chunkId": "fd330aa9e88b8d3f9789120357fd283406723b6b",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 112
+            },
+            "end": {
+              "line": 9,
+              "column": 116
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/other-anims/EfParticleSystem2D.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "2534d6fd-384c-4663-866a-3e3f1e01ff6d"
+      },
+      "chunkId": "eff0b19b5b9a9a2e5eb273d3cbf6e2132d66915a",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 116
+            },
+            "end": {
+              "line": 10,
+              "column": 120
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/CwgState.ts": {
+      "mTimestamp": {
+        "mtime": 1764084114373.741,
+        "uuid": "3cfe6c0e-19a1-4842-be3a-1ea15045375b"
+      },
+      "chunkId": "e5e938edf978757676ed953eac6f5b5b0d06513c",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "../common/LocalStorage",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 25
+            },
+            "end": {
+              "line": 9,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "../common/ResLoader",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 22
+            },
+            "end": {
+              "line": 10,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/LocalStorage.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/ResLoader.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/FunlandInfo.ts": {
+      "mTimestamp": {
+        "mtime": 1764094931304.0747,
+        "uuid": "17317836-337a-4fd8-922b-8c9c014cd0bc"
+      },
+      "chunkId": "38a33c7d42200ae234173f9076395bb290b544ff",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/VwEffect.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "5c3878c4-a96b-45c5-98c5-bc739c5dc7f0"
+      },
+      "chunkId": "dd889b299f63ddf58f3a389ab199915f213d9705",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 98
+            },
+            "end": {
+              "line": 9,
+              "column": 102
+            }
+          }
+        },
+        {
+          "value": "./CwgPools",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 25
+            },
+            "end": {
+              "line": 10,
+              "column": 37
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/CwgPools.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/VwFunland.ts": {
+      "mTimestamp": {
+        "mtime": 1764089388036.8318,
+        "uuid": "0376b617-5a89-4ec6-abdc-592f38cf6cfc"
+      },
+      "chunkId": "9ff0248b9e97c05dd23a9fbe67466f34f126c380",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 64
+            },
+            "end": {
+              "line": 9,
+              "column": 68
+            }
+          }
+        },
+        {
+          "value": "./CwgPools",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 23
+            },
+            "end": {
+              "line": 10,
+              "column": 35
+            }
+          }
+        },
+        {
+          "value": "../common/Toolkit",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 20
+            },
+            "end": {
+              "line": 13,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "../common/EventMng",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 21
+            },
+            "end": {
+              "line": 15,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "./VwEffect",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 25
+            },
+            "end": {
+              "line": 16,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./SoundComp",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 22
+            },
+            "end": {
+              "line": 17,
+              "column": 35
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/CwgPools.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/Toolkit.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/EventMng.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/VwEffect.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/SoundComp.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/VwPlay.ts": {
+      "mTimestamp": {
+        "mtime": 1764094788639.1602,
+        "uuid": "8feb56f6-9d8f-48b5-9640-079cc47b8466"
+      },
+      "chunkId": "704b76e8fc35b64c6d8b02844ab975784afd0e67",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 46
+            },
+            "end": {
+              "line": 9,
+              "column": 50
+            }
+          }
+        },
+        {
+          "value": "./VwFunland",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 24
+            },
+            "end": {
+              "line": 10,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./VwUi",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 19
+            },
+            "end": {
+              "line": 11,
+              "column": 27
+            }
+          }
+        },
+        {
+          "value": "./CwgState",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 21
+            },
+            "end": {
+              "line": 12,
+              "column": 33
+            }
+          }
+        },
+        {
+          "value": "./FunlandInfo",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 24
+            },
+            "end": {
+              "line": 13,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "../common/EventMng",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 21
+            },
+            "end": {
+              "line": 14,
+              "column": 41
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/VwFunland.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/VwUi.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/CwgState.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/FunlandInfo.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/EventMng.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/VwUi.ts": {
+      "mTimestamp": {
+        "mtime": 1764089537867.1404,
+        "uuid": "109a6220-ede6-4cd9-bcd8-65f3a8eb0f2b"
+      },
+      "chunkId": "d58d4987a56e16c8fe8e96f585d21bce97d5622c",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 59
+            },
+            "end": {
+              "line": 9,
+              "column": 63
+            }
+          }
+        },
+        {
+          "value": "./VwFunland",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 26
+            },
+            "end": {
+              "line": 11,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "../common/EventMng",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 21
+            },
+            "end": {
+              "line": 12,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "./prop-anims/VwExchange",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 27
+            },
+            "end": {
+              "line": 13,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./prop-anims/VwAddGlass",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 27
+            },
+            "end": {
+              "line": 14,
+              "column": 52
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/VwFunland.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/EventMng.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/prop-anims/VwExchange.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/prop-anims/VwAddGlass.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/prop-anims/VwExchange.ts": {
+      "mTimestamp": {
+        "mtime": 1764084892996.5046,
+        "uuid": "36a80e32-9bef-4e44-831e-b2ede5919030"
+      },
+      "chunkId": "8aca5389221ef41b83b44d0222f4957aef51222c",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 50
+            },
+            "end": {
+              "line": 10,
+              "column": 54
+            }
+          }
+        },
+        {
+          "value": "../VwFunland",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 26
+            },
+            "end": {
+              "line": 11,
+              "column": 40
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/VwFunland.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/prop-anims/VwAddGlass.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "8cb18f7f-b321-4c4f-9f3d-5ed13c809054"
+      },
+      "chunkId": "67fd6da428f99f7e6a9cca1e4468b182d4c970a0",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 98
+            },
+            "end": {
+              "line": 10,
+              "column": 102
+            }
+          }
+        },
+        {
+          "value": "../VwFunland",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 26
+            },
+            "end": {
+              "line": 11,
+              "column": 40
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/VwFunland.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/EdFunlandInfo.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "c77fc5c5-fd45-4906-9ed2-2e575a9808b3"
+      },
+      "chunkId": "a0af76f20254d7c87d701dbf7dd666e286390fb7",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "../core/FunlandInfo",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 50
+            },
+            "end": {
+              "line": 1,
+              "column": 71
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/FunlandInfo.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/EdGlass.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "b2fb9a72-a4f4-4f7d-a116-5063dce27112"
+      },
+      "chunkId": "d0de96e521995c38f88d35c2a977014bbe505620",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 25
+            },
+            "end": {
+              "line": 9,
+              "column": 29
+            }
+          }
+        },
+        {
+          "value": "../core/Glass",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 18
+            },
+            "end": {
+              "line": 10,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/Glass.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/UiEdColorCount.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "b900a0f3-26ed-46e8-8ae4-44d5c78b26b8"
+      },
+      "chunkId": "6309f085f7d0585363cda7f7fe927cfd0ad1da42",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 49
+            },
+            "end": {
+              "line": 9,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "./UiEdColumn",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 23
+            },
+            "end": {
+              "line": 10,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "../common/Rand",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 17
+            },
+            "end": {
+              "line": 11,
+              "column": 33
+            }
+          }
+        },
+        {
+          "value": "../core/CwgConstant",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 25
+            },
+            "end": {
+              "line": 12,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "./EdGlass",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 20
+            },
+            "end": {
+              "line": 13,
+              "column": 31
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/UiEdColumn.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/common/Rand.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/CwgConstant.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/EdGlass.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/UiEdColumn.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "fe1bd287-1fe9-4a6f-9533-c7ed6e528e6e"
+      },
+      "chunkId": "37f39e80fc6a5958cbc6c7950c9c12b637a071ab",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 59
+            },
+            "end": {
+              "line": 9,
+              "column": 63
+            }
+          }
+        },
+        {
+          "value": "../core/CwgPools",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 23
+            },
+            "end": {
+              "line": 10,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "../core/Glass",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 18
+            },
+            "end": {
+              "line": 11,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/CwgPools.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/Glass.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/UiEdColumnCount.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "72f3fe8b-75fa-4d13-b94a-599dbc98774b"
+      },
+      "chunkId": "38ed83b11719d83218b3db316554fbfb662176fc",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 49
+            },
+            "end": {
+              "line": 12,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "./UiEdColumnCtrl",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 27
+            },
+            "end": {
+              "line": 13,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/UiEdColumnCtrl.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/UiEdColumnCtrl.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "611efce2-f93e-4ee9-ad46-64b6e65c5411"
+      },
+      "chunkId": "6491c26128ba0c9a1c55380892d300a31845d9e7",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 55
+            },
+            "end": {
+              "line": 9,
+              "column": 59
+            }
+          }
+        },
+        {
+          "value": "./UiEdColumn",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 23
+            },
+            "end": {
+              "line": 10,
+              "column": 37
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/UiEdColumn.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/VwEdFunland.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "57383774-d807-4fdc-a5ec-4f26d178b9e4"
+      },
+      "chunkId": "525ca1e02edf98323db9d0194849b1d08b0e67cc",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 60
+            },
+            "end": {
+              "line": 10,
+              "column": 64
+            }
+          }
+        },
+        {
+          "value": "../core/CwgPools",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 23
+            },
+            "end": {
+              "line": 11,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "./UiEdColumn",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 23
+            },
+            "end": {
+              "line": 12,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./VwEdGlassSetting",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 29
+            },
+            "end": {
+              "line": 13,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "./EdGlass",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 20
+            },
+            "end": {
+              "line": 15,
+              "column": 31
+            }
+          }
+        },
+        {
+          "value": "./UiEdColorCount",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 27
+            },
+            "end": {
+              "line": 16,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "./UiEdColumnCount",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 28
+            },
+            "end": {
+              "line": 17,
+              "column": 47
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/CwgPools.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/UiEdColumn.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/VwEdGlassSetting.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/EdGlass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/UiEdColorCount.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/UiEdColumnCount.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/VwEdGlassSetting.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "cfeb1a19-9c82-4908-b7da-8ccf737fb33e"
+      },
+      "chunkId": "a2439eac2243bd1ac229dd14804e512f11d59c92",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 53
+            },
+            "end": {
+              "line": 15,
+              "column": 57
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/VwEdPlay.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "a480c609-2474-43d0-9839-ab6c18450100"
+      },
+      "chunkId": "e06ebcd69fcf9ab17365f80daa8b2e66a4ef612f",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 62
+            },
+            "end": {
+              "line": 14,
+              "column": 66
+            }
+          }
+        },
+        {
+          "value": "./VwEdFunland",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 26
+            },
+            "end": {
+              "line": 15,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "../core/CwgState",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 21
+            },
+            "end": {
+              "line": 16,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "./EdFunlandInfo",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 41
+            },
+            "end": {
+              "line": 17,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "./UiEdColumn",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 23
+            },
+            "end": {
+              "line": 18,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./EdGlass",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 20
+            },
+            "end": {
+              "line": 19,
+              "column": 31
+            }
+          }
+        },
+        {
+          "value": "./VwEdUi",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 19
+            },
+            "end": {
+              "line": 21,
+              "column": 29
+            }
+          }
+        },
+        {
+          "value": "../core/VwPlay",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 23
+            },
+            "end": {
+              "line": 22,
+              "column": 39
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/VwEdFunland.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/CwgState.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/EdFunlandInfo.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/UiEdColumn.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/EdGlass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/VwEdUi.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/VwPlay.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/VwEdUi.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "a5acd30a-7aff-46bf-bc32-8f7c4b408f4e"
+      },
+      "chunkId": "43439e96fa6d7f888388498cc8bb0f3a22e77b18",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 40
+            },
+            "end": {
+              "line": 9,
+              "column": 44
+            }
+          }
+        },
+        {
+          "value": "./UiEdColumnCount",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 28
+            },
+            "end": {
+              "line": 10,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "../core/VwUi",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 19
+            },
+            "end": {
+              "line": 12,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/editor/UiEdColumnCount.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/core/VwUi.ts"
+          },
+          "messages": []
+        }
+      ]
+    }
+  }
+}

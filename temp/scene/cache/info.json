@@ -1,0 +1,11 @@
+{
+    "systemInfo": {
+        "arch": "arm64",
+        "cpu": "Apple M2",
+        "version": "Darwin Kernel Version 24.3.0: Thu Jan  2 20:23:36 PST 2025; root:xnu-11215.81.4~3/RELEASE_ARM64_T8112"
+    },
+    "sceneListMap": {
+        "be959cc4-a91a-4c4e-a8c7-72df004c0120": "/Users/songxiangying/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_4kr9sthln3gq22_cb54/msg/file/2025-11/cc123/assets/game.scene"
+    },
+    "deviceMd5": "0f43246cb05db14178f20b854aecac87"
+}
