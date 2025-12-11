@@ -1,0 +1,13 @@
+{
+  "version": "20",
+  "config": {
+    "useDefineForClassFields": false,
+    "allowDeclareFields": false,
+    "loose": true,
+    "exportsConditions": [
+      "browser"
+    ],
+    "guessCommonJsExports": false,
+    "preserveSymlinks": true
+  }
+}

@@ -1,0 +1,4462 @@
+{
+  "modules": {
+    "cce:/internal/x/cc": {
+      "mTimestamp": 9985.454541996121,
+      "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
+      "imports": [
+        {
+          "value": "cce:/internal/x/cc-fu/2d",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 14
+            },
+            "end": {
+              "line": 1,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/sorting",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 14
+            },
+            "end": {
+              "line": 2,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/3d",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 14
+            },
+            "end": {
+              "line": 3,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/animation",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 14
+            },
+            "end": {
+              "line": 4,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/audio",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 14
+            },
+            "end": {
+              "line": 5,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/base",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 14
+            },
+            "end": {
+              "line": 6,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/dragon-bones",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 14
+            },
+            "end": {
+              "line": 7,
+              "column": 50
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/gfx-webgl",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/intersection-2d",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 14
+            },
+            "end": {
+              "line": 9,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/light-probe",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 14
+            },
+            "end": {
+              "line": 10,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/particle",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 14
+            },
+            "end": {
+              "line": 11,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/particle-2d",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 14
+            },
+            "end": {
+              "line": 12,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-2d-box2d",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 14
+            },
+            "end": {
+              "line": 13,
+              "column": 54
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-2d-framework",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 14
+            },
+            "end": {
+              "line": 14,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-ammo",
+          "resolved": "__unresolved_14",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 14
+            },
+            "end": {
+              "line": 15,
+              "column": 50
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-framework",
+          "resolved": "__unresolved_15",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 14
+            },
+            "end": {
+              "line": 16,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/wait-for-ammo-instantiation",
+          "resolved": "__unresolved_16",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 14
+            },
+            "end": {
+              "line": 17,
+              "column": 65
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/primitive",
+          "resolved": "__unresolved_17",
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 14
+            },
+            "end": {
+              "line": 18,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/profiler",
+          "resolved": "__unresolved_18",
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 14
+            },
+            "end": {
+              "line": 19,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/skeletal-animation",
+          "resolved": "__unresolved_19",
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 14
+            },
+            "end": {
+              "line": 20,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/spine",
+          "resolved": "__unresolved_20",
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 14
+            },
+            "end": {
+              "line": 21,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/terrain",
+          "resolved": "__unresolved_21",
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 14
+            },
+            "end": {
+              "line": 22,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/tiled-map",
+          "resolved": "__unresolved_22",
+          "loc": {
+            "start": {
+              "line": 23,
+              "column": 14
+            },
+            "end": {
+              "line": 23,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/tween",
+          "resolved": "__unresolved_23",
+          "loc": {
+            "start": {
+              "line": 24,
+              "column": 14
+            },
+            "end": {
+              "line": 24,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/ui",
+          "resolved": "__unresolved_24",
+          "loc": {
+            "start": {
+              "line": 25,
+              "column": 14
+            },
+            "end": {
+              "line": 25,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/video",
+          "resolved": "__unresolved_25",
+          "loc": {
+            "start": {
+              "line": 26,
+              "column": 14
+            },
+            "end": {
+              "line": 26,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/webview",
+          "resolved": "__unresolved_26",
+          "loc": {
+            "start": {
+              "line": 27,
+              "column": 14
+            },
+            "end": {
+              "line": 27,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/sorting"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/3d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/animation"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/audio"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/base"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/dragon-bones"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/intersection-2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/light-probe"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/particle"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/particle-2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-box2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-framework"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-ammo"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-framework"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/wait-for-ammo-instantiation"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/primitive"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/profiler"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/skeletal-animation"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/spine"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/terrain"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/tiled-map"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/tween"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/ui"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/video"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/webview"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/x/prerequisite-imports": {
+      "mTimestamp": 11294.987707994878,
+      "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
+      "imports": [
+        {
+          "value": "file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 7
+            },
+            "end": {
+              "line": 4,
+              "column": 155
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/common/EventMng.ts",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 7
+            },
+            "end": {
+              "line": 5,
+              "column": 80
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/common/LocalStorage.ts",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 7
+            },
+            "end": {
+              "line": 6,
+              "column": 84
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/common/Pool.ts",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 7
+            },
+            "end": {
+              "line": 7,
+              "column": 76
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/common/Rand.ts",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 7
+            },
+            "end": {
+              "line": 8,
+              "column": 76
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/common/ResLoader.ts",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 7
+            },
+            "end": {
+              "line": 9,
+              "column": 81
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/common/Toolkit.ts",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 7
+            },
+            "end": {
+              "line": 10,
+              "column": 79
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/CwgConstant.ts",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 7
+            },
+            "end": {
+              "line": 11,
+              "column": 81
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/CwgPools.ts",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 7
+            },
+            "end": {
+              "line": 12,
+              "column": 78
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/CwgState.ts",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 7
+            },
+            "end": {
+              "line": 13,
+              "column": 78
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/EndCtrl.ts",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 7
+            },
+            "end": {
+              "line": 14,
+              "column": 77
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/FunlandInfo.ts",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 7
+            },
+            "end": {
+              "line": 15,
+              "column": 81
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/Glass.ts",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 7
+            },
+            "end": {
+              "line": 16,
+              "column": 75
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/HomeCtrl.ts",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 7
+            },
+            "end": {
+              "line": 17,
+              "column": 78
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/SoundComp.ts",
+          "resolved": "__unresolved_14",
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 7
+            },
+            "end": {
+              "line": 18,
+              "column": 79
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/VwEffect.ts",
+          "resolved": "__unresolved_15",
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 7
+            },
+            "end": {
+              "line": 19,
+              "column": 78
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/VwFunland.ts",
+          "resolved": "__unresolved_16",
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 7
+            },
+            "end": {
+              "line": 20,
+              "column": 79
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/VwPlay.ts",
+          "resolved": "__unresolved_17",
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 7
+            },
+            "end": {
+              "line": 21,
+              "column": 76
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/VwUi.ts",
+          "resolved": "__unresolved_18",
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 7
+            },
+            "end": {
+              "line": 22,
+              "column": 74
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/glass-anims/GlassFlowing.ts",
+          "resolved": "__unresolved_19",
+          "loc": {
+            "start": {
+              "line": 23,
+              "column": 7
+            },
+            "end": {
+              "line": 23,
+              "column": 94
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/glass-anims/GlassPourOut.ts",
+          "resolved": "__unresolved_20",
+          "loc": {
+            "start": {
+              "line": 24,
+              "column": 7
+            },
+            "end": {
+              "line": 24,
+              "column": 94
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/glass-anims/WaterSurface.ts",
+          "resolved": "__unresolved_21",
+          "loc": {
+            "start": {
+              "line": 25,
+              "column": 7
+            },
+            "end": {
+              "line": 25,
+              "column": 94
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/other-anims/EfParticleSystem2D.ts",
+          "resolved": "__unresolved_22",
+          "loc": {
+            "start": {
+              "line": 26,
+              "column": 7
+            },
+            "end": {
+              "line": 26,
+              "column": 100
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/prop-anims/VwAddGlass.ts",
+          "resolved": "__unresolved_23",
+          "loc": {
+            "start": {
+              "line": 27,
+              "column": 7
+            },
+            "end": {
+              "line": 27,
+              "column": 91
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/prop-anims/VwExchange.ts",
+          "resolved": "__unresolved_24",
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 7
+            },
+            "end": {
+              "line": 28,
+              "column": 91
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/EdFunlandInfo.ts",
+          "resolved": "__unresolved_25",
+          "loc": {
+            "start": {
+              "line": 29,
+              "column": 7
+            },
+            "end": {
+              "line": 29,
+              "column": 85
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/EdGlass.ts",
+          "resolved": "__unresolved_26",
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 7
+            },
+            "end": {
+              "line": 30,
+              "column": 79
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/UiEdColorCount.ts",
+          "resolved": "__unresolved_27",
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 7
+            },
+            "end": {
+              "line": 31,
+              "column": 86
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/UiEdColumn.ts",
+          "resolved": "__unresolved_28",
+          "loc": {
+            "start": {
+              "line": 32,
+              "column": 7
+            },
+            "end": {
+              "line": 32,
+              "column": 82
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/UiEdColumnCount.ts",
+          "resolved": "__unresolved_29",
+          "loc": {
+            "start": {
+              "line": 33,
+              "column": 7
+            },
+            "end": {
+              "line": 33,
+              "column": 87
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/UiEdColumnCtrl.ts",
+          "resolved": "__unresolved_30",
+          "loc": {
+            "start": {
+              "line": 34,
+              "column": 7
+            },
+            "end": {
+              "line": 34,
+              "column": 86
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/VwEdFunland.ts",
+          "resolved": "__unresolved_31",
+          "loc": {
+            "start": {
+              "line": 35,
+              "column": 7
+            },
+            "end": {
+              "line": 35,
+              "column": 83
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/VwEdGlassSetting.ts",
+          "resolved": "__unresolved_32",
+          "loc": {
+            "start": {
+              "line": 36,
+              "column": 7
+            },
+            "end": {
+              "line": 36,
+              "column": 88
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/VwEdPlay.ts",
+          "resolved": "__unresolved_33",
+          "loc": {
+            "start": {
+              "line": 37,
+              "column": 7
+            },
+            "end": {
+              "line": 37,
+              "column": 80
+            }
+          }
+        },
+        {
+          "value": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/VwEdUi.ts",
+          "resolved": "__unresolved_34",
+          "loc": {
+            "start": {
+              "line": 38,
+              "column": 7
+            },
+            "end": {
+              "line": 38,
+              "column": 78
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/common/EventMng.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/common/LocalStorage.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/common/Pool.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/common/Rand.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/common/ResLoader.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/common/Toolkit.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/CwgConstant.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/CwgPools.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/CwgState.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/EndCtrl.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/FunlandInfo.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/Glass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/HomeCtrl.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/SoundComp.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/VwEffect.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/VwFunland.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/VwPlay.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/VwUi.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/glass-anims/GlassFlowing.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/glass-anims/GlassPourOut.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/glass-anims/WaterSurface.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/other-anims/EfParticleSystem2D.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/prop-anims/VwAddGlass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/prop-anims/VwExchange.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/EdFunlandInfo.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/EdGlass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/UiEdColorCount.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/UiEdColumn.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/UiEdColumnCount.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/UiEdColumnCtrl.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/VwEdFunland.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/VwEdGlassSetting.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/VwEdPlay.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/VwEdUi.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": {
+      "mTimestamp": {
+        "mtime": 1715411209000,
+        "uuid": "b2bd1fa7-8d7c-49c5-a158-df29a6d3a594"
+      },
+      "chunkId": "31e3c2f26607ebb67e59edfae1b48b9458089fb9",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 220
+            },
+            "end": {
+              "line": 1,
+              "column": 224
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/common/EventMng.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "848eeef0-a6e1-4def-b111-6186906a3174"
+      },
+      "chunkId": "66bb9f0e53d68a672d0ab5fdc26b27a98615737f",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 26
+            },
+            "end": {
+              "line": 9,
+              "column": 30
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/common/LocalStorage.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "bb7cefb4-3fa5-4f5a-87f4-acd08d218a78"
+      },
+      "chunkId": "461cd774f14aff2a07fa01b75ad189e0e24e9d44",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 18
+            },
+            "end": {
+              "line": 9,
+              "column": 22
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/common/Pool.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "d827e19e-4c96-40de-883c-fbb62fa07779"
+      },
+      "chunkId": "32762b03b342656d330b3c03a16acba57a70f893",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 50
+            },
+            "end": {
+              "line": 9,
+              "column": 54
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/common/Rand.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "51d21bab-e1e6-44f8-882f-9fe987e143cd"
+      },
+      "chunkId": "7c077441331c003d5a60fdeea3dfdf4960ed7933",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/common/ResLoader.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "a7eb35ac-8be5-4691-abad-c2ad49c140f3"
+      },
+      "chunkId": "9bbdfb5ca8991ad3e3cff66edfb9e5946a51cc2c",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 38
+            },
+            "end": {
+              "line": 9,
+              "column": 42
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/common/Toolkit.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "0db2358f-d238-47d9-99ff-603de41b577a"
+      },
+      "chunkId": "1d9ed29cabea9bc06fa654f00dc6ee5d3f269a8d",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/core/CwgConstant.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "13767ef1-60ea-456b-8f8a-35d0f291d017"
+      },
+      "chunkId": "484a4ac3eaca38830b60b3d3f9d11c75f81a27ff",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/core/CwgPools.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "ff07e3a0-9849-427e-a59e-fcd0578fdde5"
+      },
+      "chunkId": "7692adc60c9a0381fe3022143f52bc9158016868",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 55
+            },
+            "end": {
+              "line": 9,
+              "column": 59
+            }
+          }
+        },
+        {
+          "value": "../common/Pool",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 17
+            },
+            "end": {
+              "line": 10,
+              "column": 33
+            }
+          }
+        },
+        {
+          "value": "./Glass",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 18
+            },
+            "end": {
+              "line": 11,
+              "column": 27
+            }
+          }
+        },
+        {
+          "value": "./glass-anims/GlassPourOut",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 25
+            },
+            "end": {
+              "line": 12,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "./glass-anims/GlassFlowing",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 25
+            },
+            "end": {
+              "line": 13,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "../common/Toolkit",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 20
+            },
+            "end": {
+              "line": 14,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "./other-anims/EfParticleSystem2D",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 35
+            },
+            "end": {
+              "line": 17,
+              "column": 69
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/common/Pool.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/Glass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/glass-anims/GlassPourOut.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/glass-anims/GlassFlowing.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/common/Toolkit.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/other-anims/EfParticleSystem2D.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/code-quality/cr.mjs": {
+      "mTimestamp": 1765430894779,
+      "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
+      "imports": [],
+      "type": "esm",
+      "resolutions": []
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/core/Glass.ts": {
+      "mTimestamp": {
+        "mtime": 1764088995000,
+        "uuid": "a00bdc2f-0af5-44c4-b513-b20e8131231d"
+      },
+      "chunkId": "eb1eea0e2bfac83532bff0ca0865a2d73db83fcd",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 94
+            },
+            "end": {
+              "line": 9,
+              "column": 98
+            }
+          }
+        },
+        {
+          "value": "./CwgConstant",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 38
+            },
+            "end": {
+              "line": 10,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "./glass-anims/WaterSurface",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 25
+            },
+            "end": {
+              "line": 11,
+              "column": 53
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/CwgConstant.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/glass-anims/WaterSurface.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/core/glass-anims/WaterSurface.ts": {
+      "mTimestamp": {
+        "mtime": 1764085580000,
+        "uuid": "cad1e1a7-d4b2-4c44-a5ab-42bddfd695ea"
+      },
+      "chunkId": "8a5f8af338ebb2252f6e91fd18e91b0d11150836",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 67
+            },
+            "end": {
+              "line": 9,
+              "column": 71
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/core/glass-anims/GlassPourOut.ts": {
+      "mTimestamp": {
+        "mtime": 1764089963000,
+        "uuid": "19a27875-4608-4964-b69f-906e08556a2f"
+      },
+      "chunkId": "47f7cadd6047077d72fb48ae8fbaa8fc314fc5d9",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 106
+            },
+            "end": {
+              "line": 9,
+              "column": 110
+            }
+          }
+        },
+        {
+          "value": "../Glass",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 18
+            },
+            "end": {
+              "line": 10,
+              "column": 28
+            }
+          }
+        },
+        {
+          "value": "../CwgConstant",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 38
+            },
+            "end": {
+              "line": 11,
+              "column": 54
+            }
+          }
+        },
+        {
+          "value": "../../common/Toolkit",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 20
+            },
+            "end": {
+              "line": 12,
+              "column": 42
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/Glass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/CwgConstant.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/common/Toolkit.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/core/glass-anims/GlassFlowing.ts": {
+      "mTimestamp": {
+        "mtime": 1764089014000,
+        "uuid": "2db6d2a8-dd1a-4313-a5f1-8b8282ccea70"
+      },
+      "chunkId": "db8feaa7a2275191e025edf76e5b3c572e7bec5c",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 66
+            },
+            "end": {
+              "line": 11,
+              "column": 70
+            }
+          }
+        },
+        {
+          "value": "../../common/Toolkit",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 20
+            },
+            "end": {
+              "line": 12,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "../SoundComp",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 22
+            },
+            "end": {
+              "line": 13,
+              "column": 36
+            }
+          }
+        },
+        {
+          "value": "../Glass",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 18
+            },
+            "end": {
+              "line": 14,
+              "column": 28
+            }
+          }
+        },
+        {
+          "value": "../CwgConstant",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 38
+            },
+            "end": {
+              "line": 15,
+              "column": 54
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/common/Toolkit.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/SoundComp.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/Glass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/CwgConstant.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/core/SoundComp.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "cdd300a2-d55a-4dda-ab80-f36977c4abc7"
+      },
+      "chunkId": "689d9e5108d2f686f4e1ed685289925df7e76f93",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 112
+            },
+            "end": {
+              "line": 9,
+              "column": 116
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/core/other-anims/EfParticleSystem2D.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "2534d6fd-384c-4663-866a-3e3f1e01ff6d"
+      },
+      "chunkId": "9c16ec679c2872e9c14b68e78e82fb23b11fe2d0",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 116
+            },
+            "end": {
+              "line": 10,
+              "column": 120
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/core/CwgState.ts": {
+      "mTimestamp": {
+        "mtime": 1764084114000,
+        "uuid": "3cfe6c0e-19a1-4842-be3a-1ea15045375b"
+      },
+      "chunkId": "1e5f59537fe9559990ec80e188196040ee527a30",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "../common/LocalStorage",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 25
+            },
+            "end": {
+              "line": 9,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "../common/ResLoader",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 22
+            },
+            "end": {
+              "line": 10,
+              "column": 43
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/common/LocalStorage.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/common/ResLoader.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/core/EndCtrl.ts": {
+      "mTimestamp": {
+        "mtime": 1764942791000,
+        "uuid": "908a620f-7ef8-401e-b57c-bc31e97b52a2"
+      },
+      "chunkId": "89f25bba953109ad3971208a44cb1dad13698a86",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 53
+            },
+            "end": {
+              "line": 1,
+              "column": 57
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/core/FunlandInfo.ts": {
+      "mTimestamp": {
+        "mtime": 1764094931000,
+        "uuid": "17317836-337a-4fd8-922b-8c9c014cd0bc"
+      },
+      "chunkId": "f0034bd718cdb0c9e7f9c93a54dbf9523fea0d66",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/core/HomeCtrl.ts": {
+      "mTimestamp": {
+        "mtime": 1764943168000,
+        "uuid": "2bdab37f-0589-424f-8f6f-766337118724"
+      },
+      "chunkId": "a1a3c1699b1c2c66a85e2a0dca4d93f7d191a032",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 53
+            },
+            "end": {
+              "line": 1,
+              "column": 57
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/core/VwEffect.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "5c3878c4-a96b-45c5-98c5-bc739c5dc7f0"
+      },
+      "chunkId": "d9ca097ad456ddd322645310edb319f708aa42f2",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 98
+            },
+            "end": {
+              "line": 9,
+              "column": 102
+            }
+          }
+        },
+        {
+          "value": "./CwgPools",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 25
+            },
+            "end": {
+              "line": 10,
+              "column": 37
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/CwgPools.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/core/VwFunland.ts": {
+      "mTimestamp": {
+        "mtime": 1764089388000,
+        "uuid": "0376b617-5a89-4ec6-abdc-592f38cf6cfc"
+      },
+      "chunkId": "9e745dacab47b6915fde342e978d60f1b1175a27",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 64
+            },
+            "end": {
+              "line": 9,
+              "column": 68
+            }
+          }
+        },
+        {
+          "value": "./CwgPools",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 23
+            },
+            "end": {
+              "line": 10,
+              "column": 35
+            }
+          }
+        },
+        {
+          "value": "../common/Toolkit",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 20
+            },
+            "end": {
+              "line": 13,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "../common/EventMng",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 21
+            },
+            "end": {
+              "line": 15,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "./VwEffect",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 25
+            },
+            "end": {
+              "line": 16,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./SoundComp",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 22
+            },
+            "end": {
+              "line": 17,
+              "column": 35
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/CwgPools.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/common/Toolkit.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/common/EventMng.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/VwEffect.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/SoundComp.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/core/VwPlay.ts": {
+      "mTimestamp": {
+        "mtime": 1764094788000,
+        "uuid": "8feb56f6-9d8f-48b5-9640-079cc47b8466"
+      },
+      "chunkId": "2db33c15c1beb4af96cd1e8473eb907adfdad142",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 46
+            },
+            "end": {
+              "line": 9,
+              "column": 50
+            }
+          }
+        },
+        {
+          "value": "./VwFunland",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 24
+            },
+            "end": {
+              "line": 10,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./VwUi",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 19
+            },
+            "end": {
+              "line": 11,
+              "column": 27
+            }
+          }
+        },
+        {
+          "value": "./CwgState",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 21
+            },
+            "end": {
+              "line": 12,
+              "column": 33
+            }
+          }
+        },
+        {
+          "value": "./FunlandInfo",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 24
+            },
+            "end": {
+              "line": 13,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "../common/EventMng",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 21
+            },
+            "end": {
+              "line": 14,
+              "column": 41
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/VwFunland.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/VwUi.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/CwgState.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/FunlandInfo.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/common/EventMng.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/core/VwUi.ts": {
+      "mTimestamp": {
+        "mtime": 1764943164000,
+        "uuid": "109a6220-ede6-4cd9-bcd8-65f3a8eb0f2b"
+      },
+      "chunkId": "530f0f342e5341a6fd0569417744a0c3c9525406",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 69
+            },
+            "end": {
+              "line": 6,
+              "column": 73
+            }
+          }
+        },
+        {
+          "value": "./VwFunland",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 26
+            },
+            "end": {
+              "line": 8,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "../common/EventMng",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 21
+            },
+            "end": {
+              "line": 9,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "./prop-anims/VwExchange",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 27
+            },
+            "end": {
+              "line": 10,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./prop-anims/VwAddGlass",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 27
+            },
+            "end": {
+              "line": 11,
+              "column": 52
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/VwFunland.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/common/EventMng.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/prop-anims/VwExchange.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/prop-anims/VwAddGlass.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/core/prop-anims/VwExchange.ts": {
+      "mTimestamp": {
+        "mtime": 1764084892000,
+        "uuid": "36a80e32-9bef-4e44-831e-b2ede5919030"
+      },
+      "chunkId": "c7510b5762b099a85803734b2a954ffd15fc5248",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 50
+            },
+            "end": {
+              "line": 10,
+              "column": 54
+            }
+          }
+        },
+        {
+          "value": "../VwFunland",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 26
+            },
+            "end": {
+              "line": 11,
+              "column": 40
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/VwFunland.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/core/prop-anims/VwAddGlass.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "8cb18f7f-b321-4c4f-9f3d-5ed13c809054"
+      },
+      "chunkId": "c53c9d4c18359818a082eee326d29b0c3f73556d",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 98
+            },
+            "end": {
+              "line": 10,
+              "column": 102
+            }
+          }
+        },
+        {
+          "value": "../VwFunland",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 26
+            },
+            "end": {
+              "line": 11,
+              "column": 40
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/VwFunland.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/EdFunlandInfo.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "c77fc5c5-fd45-4906-9ed2-2e575a9808b3"
+      },
+      "chunkId": "54d66fd2389ee52ae2a0f793e6bdc8c668a020ac",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "../core/FunlandInfo",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 50
+            },
+            "end": {
+              "line": 1,
+              "column": 71
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/FunlandInfo.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/EdGlass.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "b2fb9a72-a4f4-4f7d-a116-5063dce27112"
+      },
+      "chunkId": "359923e15fa0442f1be54770ede6b2ec45e0b5ba",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 25
+            },
+            "end": {
+              "line": 9,
+              "column": 29
+            }
+          }
+        },
+        {
+          "value": "../core/Glass",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 18
+            },
+            "end": {
+              "line": 10,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/Glass.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/UiEdColorCount.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "b900a0f3-26ed-46e8-8ae4-44d5c78b26b8"
+      },
+      "chunkId": "955449ded0e9aa0eaccbda79ca1f582396da2e87",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 49
+            },
+            "end": {
+              "line": 9,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "./UiEdColumn",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 23
+            },
+            "end": {
+              "line": 10,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "../common/Rand",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 17
+            },
+            "end": {
+              "line": 11,
+              "column": 33
+            }
+          }
+        },
+        {
+          "value": "../core/CwgConstant",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 25
+            },
+            "end": {
+              "line": 12,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "./EdGlass",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 20
+            },
+            "end": {
+              "line": 13,
+              "column": 31
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/UiEdColumn.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/common/Rand.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/CwgConstant.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/EdGlass.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/UiEdColumn.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "fe1bd287-1fe9-4a6f-9533-c7ed6e528e6e"
+      },
+      "chunkId": "61837a003de622e4fc54d6d47b182542f37a82b3",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 59
+            },
+            "end": {
+              "line": 9,
+              "column": 63
+            }
+          }
+        },
+        {
+          "value": "../core/CwgPools",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 23
+            },
+            "end": {
+              "line": 10,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "../core/Glass",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 18
+            },
+            "end": {
+              "line": 11,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/CwgPools.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/Glass.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/UiEdColumnCount.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "72f3fe8b-75fa-4d13-b94a-599dbc98774b"
+      },
+      "chunkId": "4d1ed89b95eab8ad5fe7c1d0a10889db7a9f0ba9",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 49
+            },
+            "end": {
+              "line": 12,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "./UiEdColumnCtrl",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 27
+            },
+            "end": {
+              "line": 13,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/UiEdColumnCtrl.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/UiEdColumnCtrl.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "611efce2-f93e-4ee9-ad46-64b6e65c5411"
+      },
+      "chunkId": "743dc79d053f82247b3170ea7d587534aa9454cf",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 55
+            },
+            "end": {
+              "line": 9,
+              "column": 59
+            }
+          }
+        },
+        {
+          "value": "./UiEdColumn",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 23
+            },
+            "end": {
+              "line": 10,
+              "column": 37
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/UiEdColumn.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/VwEdFunland.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "57383774-d807-4fdc-a5ec-4f26d178b9e4"
+      },
+      "chunkId": "8e8f46a794cba8772b5bafb048839e40c6382f23",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 60
+            },
+            "end": {
+              "line": 10,
+              "column": 64
+            }
+          }
+        },
+        {
+          "value": "../core/CwgPools",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 23
+            },
+            "end": {
+              "line": 11,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "./UiEdColumn",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 23
+            },
+            "end": {
+              "line": 12,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./VwEdGlassSetting",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 29
+            },
+            "end": {
+              "line": 13,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "./EdGlass",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 20
+            },
+            "end": {
+              "line": 15,
+              "column": 31
+            }
+          }
+        },
+        {
+          "value": "./UiEdColorCount",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 27
+            },
+            "end": {
+              "line": 16,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "./UiEdColumnCount",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 28
+            },
+            "end": {
+              "line": 17,
+              "column": 47
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/CwgPools.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/UiEdColumn.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/VwEdGlassSetting.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/EdGlass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/UiEdColorCount.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/UiEdColumnCount.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/VwEdGlassSetting.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "cfeb1a19-9c82-4908-b7da-8ccf737fb33e"
+      },
+      "chunkId": "8e0aec1f9fd02dd02889dbcc900586eaa970d138",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 53
+            },
+            "end": {
+              "line": 15,
+              "column": 57
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/VwEdPlay.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "a480c609-2474-43d0-9839-ab6c18450100"
+      },
+      "chunkId": "1b2f37b6ae07b31eaa47fc4683cb0d1dafe79d66",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 62
+            },
+            "end": {
+              "line": 14,
+              "column": 66
+            }
+          }
+        },
+        {
+          "value": "./VwEdFunland",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 26
+            },
+            "end": {
+              "line": 15,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "../core/CwgState",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 21
+            },
+            "end": {
+              "line": 16,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "./EdFunlandInfo",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 41
+            },
+            "end": {
+              "line": 17,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "./UiEdColumn",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 23
+            },
+            "end": {
+              "line": 18,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./EdGlass",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 20
+            },
+            "end": {
+              "line": 19,
+              "column": 31
+            }
+          }
+        },
+        {
+          "value": "./VwEdUi",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 19
+            },
+            "end": {
+              "line": 21,
+              "column": 29
+            }
+          }
+        },
+        {
+          "value": "../core/VwPlay",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 23
+            },
+            "end": {
+              "line": 22,
+              "column": 39
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/VwEdFunland.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/CwgState.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/EdFunlandInfo.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/UiEdColumn.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/EdGlass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/VwEdUi.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/VwPlay.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/VwEdUi.ts": {
+      "mTimestamp": {
+        "mtime": 1762252729000,
+        "uuid": "a5acd30a-7aff-46bf-bc32-8f7c4b408f4e"
+      },
+      "chunkId": "7c8442350ae274a7cf4504ef0f92f59c376641a2",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 40
+            },
+            "end": {
+              "line": 9,
+              "column": 44
+            }
+          }
+        },
+        {
+          "value": "./UiEdColumnCount",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 28
+            },
+            "end": {
+              "line": 10,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "../core/VwUi",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 19
+            },
+            "end": {
+              "line": 12,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/editor/UiEdColumnCount.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/songxiangying/Desktop/cc1234223/assets/core/VwUi.ts"
+          },
+          "messages": []
+        }
+      ]
+    }
+  }
+}

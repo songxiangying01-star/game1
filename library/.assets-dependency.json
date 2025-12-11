@@ -1,0 +1,20 @@
+{
+  "path": {
+    "/Users/songxiangying/Desktop/cc1234223/assets/anims/water-wave.effect": [
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/vs.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/cc-global.chunk",
+      "/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/chunks/fs.chunk",
+      "/Users/songxiangying/Desktop/cc1234223/assets/chunks/vs.chunk",
+      "/Users/songxiangying/Desktop/cc1234223/assets/chunks/cc-global.chunk",
+      "/Users/songxiangying/Desktop/cc1234223/assets/chunks/fs.chunk"
+    ]
+  },
+  "uuid": {
+    "/Users/songxiangying/Desktop/cc1234223/assets/anims/water-material-001.mtl": [
+      "c8d07dec-286d-4a31-9339-531b91fd63cf"
+    ],
+    "/Users/songxiangying/Desktop/cc1234223/assets/anims/water-material.mtl": [
+      "c8d07dec-286d-4a31-9339-531b91fd63cf"
+    ]
+  }
+}

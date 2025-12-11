@@ -1,0 +1,863 @@
+{
+  "f7de29d0-f89b-409e-a216-2644745999a0": {
+    "url": "db://assets/anims",
+    "value": {},
+    "versionCode": 1
+  },
+  "8dfeab7f-2445-4c02-8868-571a456a37b4": {
+    "url": "db://assets/common",
+    "value": {},
+    "versionCode": 1
+  },
+  "e997901f-3b42-42e3-9b55-14163c5d7216": {
+    "url": "db://assets/core",
+    "value": {},
+    "versionCode": 1
+  },
+  "a2cbd5b6-8ed4-4eab-ae83-982577bf4104": {
+    "url": "db://assets/editor",
+    "value": {},
+    "versionCode": 1
+  },
+  "044d724d-9379-450f-85f7-42f4e0f2a1a3": {
+    "url": "db://assets/resources",
+    "value": {},
+    "versionCode": 1
+  },
+  "90d4533b-da2a-414b-b33c-b787d3ee307c": {
+    "url": "db://assets/core/glass-anims",
+    "value": {},
+    "versionCode": 1
+  },
+  "5c6d324a-a15b-48da-9f83-11a6e54a55af": {
+    "url": "db://assets/core/other-anims",
+    "value": {},
+    "versionCode": 1
+  },
+  "070df78e-e250-4549-bb2b-9d31fcdc1473": {
+    "url": "db://assets/core/prop-anims",
+    "value": {},
+    "versionCode": 1
+  },
+  "b97dcbc9-ea40-4ccd-a7c6-e227453f271b": {
+    "url": "db://assets/resources/data",
+    "value": {},
+    "versionCode": 1
+  },
+  "38e3f1b5-9f14-4f55-b845-763e132b2f6d": {
+    "url": "db://assets/resources/images",
+    "value": {},
+    "versionCode": 1
+  },
+  "12dfe04e-7f82-4c76-9fd9-24b49bb2c73f": {
+    "url": "db://assets/resources/prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "497602b7-738f-4340-bf97-4f792e964a46": {
+    "url": "db://assets/resources/sounds",
+    "value": {},
+    "versionCode": 1
+  },
+  "34ef39f5-193d-4b84-9a9e-63a1d568e8e4": {
+    "url": "db://assets/resources/images/pingzi",
+    "value": {},
+    "versionCode": 1
+  },
+  "d04b7835-473f-42c4-a621-9cda8f7e03b0": {
+    "url": "db://assets/resources/images/道具",
+    "value": {},
+    "versionCode": 1
+  },
+  "c8d07dec-286d-4a31-9339-531b91fd63cf": {
+    "url": "db://assets/anims/water-wave.effect",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "848eeef0-a6e1-4def-b111-6186906a3174": {
+    "url": "db://assets/common/EventMng.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "bb7cefb4-3fa5-4f5a-87f4-acd08d218a78": {
+    "url": "db://assets/common/LocalStorage.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "d827e19e-4c96-40de-883c-fbb62fa07779": {
+    "url": "db://assets/common/Pool.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "51d21bab-e1e6-44f8-882f-9fe987e143cd": {
+    "url": "db://assets/common/Rand.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "a7eb35ac-8be5-4691-abad-c2ad49c140f3": {
+    "url": "db://assets/common/ResLoader.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "0db2358f-d238-47d9-99ff-603de41b577a": {
+    "url": "db://assets/common/Toolkit.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "13767ef1-60ea-456b-8f8a-35d0f291d017": {
+    "url": "db://assets/core/CwgConstant.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "ff07e3a0-9849-427e-a59e-fcd0578fdde5": {
+    "url": "db://assets/core/CwgPools.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "3cfe6c0e-19a1-4842-be3a-1ea15045375b": {
+    "url": "db://assets/core/CwgState.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "908a620f-7ef8-401e-b57c-bc31e97b52a2": {
+    "url": "db://assets/core/EndCtrl.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "17317836-337a-4fd8-922b-8c9c014cd0bc": {
+    "url": "db://assets/core/FunlandInfo.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "a00bdc2f-0af5-44c4-b513-b20e8131231d": {
+    "url": "db://assets/core/Glass.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "2bdab37f-0589-424f-8f6f-766337118724": {
+    "url": "db://assets/core/HomeCtrl.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "cdd300a2-d55a-4dda-ab80-f36977c4abc7": {
+    "url": "db://assets/core/SoundComp.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "5c3878c4-a96b-45c5-98c5-bc739c5dc7f0": {
+    "url": "db://assets/core/VwEffect.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "0376b617-5a89-4ec6-abdc-592f38cf6cfc": {
+    "url": "db://assets/core/VwFunland.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "8feb56f6-9d8f-48b5-9640-079cc47b8466": {
+    "url": "db://assets/core/VwPlay.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "109a6220-ede6-4cd9-bcd8-65f3a8eb0f2b": {
+    "url": "db://assets/core/VwUi.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "c77fc5c5-fd45-4906-9ed2-2e575a9808b3": {
+    "url": "db://assets/editor/EdFunlandInfo.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "b2fb9a72-a4f4-4f7d-a116-5063dce27112": {
+    "url": "db://assets/editor/EdGlass.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "b900a0f3-26ed-46e8-8ae4-44d5c78b26b8": {
+    "url": "db://assets/editor/UiEdColorCount.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "fe1bd287-1fe9-4a6f-9533-c7ed6e528e6e": {
+    "url": "db://assets/editor/UiEdColumn.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "72f3fe8b-75fa-4d13-b94a-599dbc98774b": {
+    "url": "db://assets/editor/UiEdColumnCount.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "611efce2-f93e-4ee9-ad46-64b6e65c5411": {
+    "url": "db://assets/editor/UiEdColumnCtrl.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "57383774-d807-4fdc-a5ec-4f26d178b9e4": {
+    "url": "db://assets/editor/VwEdFunland.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "cfeb1a19-9c82-4908-b7da-8ccf737fb33e": {
+    "url": "db://assets/editor/VwEdGlassSetting.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "a480c609-2474-43d0-9839-ab6c18450100": {
+    "url": "db://assets/editor/VwEdPlay.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "a5acd30a-7aff-46bf-bc32-8f7c4b408f4e": {
+    "url": "db://assets/editor/VwEdUi.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "2db6d2a8-dd1a-4313-a5f1-8b8282ccea70": {
+    "url": "db://assets/core/glass-anims/GlassFlowing.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "19a27875-4608-4964-b69f-906e08556a2f": {
+    "url": "db://assets/core/glass-anims/GlassPourOut.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "cad1e1a7-d4b2-4c44-a5ab-42bddfd695ea": {
+    "url": "db://assets/core/glass-anims/WaterSurface.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "2534d6fd-384c-4663-866a-3e3f1e01ff6d": {
+    "url": "db://assets/core/other-anims/EfParticleSystem2D.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "8cb18f7f-b321-4c4f-9f3d-5ed13c809054": {
+    "url": "db://assets/core/prop-anims/VwAddGlass.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "36a80e32-9bef-4e44-831e-b2ede5919030": {
+    "url": "db://assets/core/prop-anims/VwExchange.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "cf71af77-12a4-49a4-826e-34e73e2441d6": {
+    "url": "db://assets/End.scene",
+    "value": {
+      "depends": [
+        "cf71af77-12a4-49a4-826e-34e73e2441d6",
+        "c7dc3278-3f38-4647-8bcf-3305f13be1a4@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "f0eb8031-ac93-4f3a-8fef-b1501a194c8f@f9941",
+        "21fb3f1f-3910-4dd9-a115-3de2e2142c61@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
+      ],
+      "dependScripts": [
+        "908a620f-7ef8-401e-b57c-bc31e97b52a2"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6f7dcc76-2a67-42fd-8a02-18010100f657": {
+    "url": "db://assets/Home.scene",
+    "value": {
+      "depends": [
+        "6f7dcc76-2a67-42fd-8a02-18010100f657",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "15ae819c-73fb-4413-a5c3-6d761e1ea98b@f9941",
+        "aeea3909-b93b-4bd4-a24d-7c3712f1670a@f9941",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
+      ],
+      "dependScripts": [
+        "2bdab37f-0589-424f-8f6f-766337118724"
+      ]
+    },
+    "versionCode": 1
+  },
+  "be959cc4-a91a-4c4e-a8c7-72df004c0120": {
+    "url": "db://assets/game.scene",
+    "value": {
+      "depends": [
+        "be959cc4-a91a-4c4e-a8c7-72df004c0120",
+        "55370fed-376d-44b1-a98d-6bfa70a51046@f9941",
+        "878899a2-ac86-4133-93bc-0b850ef19db6",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "32babf96-6899-408a-8dfc-9aae06da233f@f9941",
+        "6a562cf3-94b8-452a-a51c-cd9060953b41",
+        "9b4cd33b-0337-46b7-b7c9-b7a9a2372c5c@f9941",
+        "8271c987-a999-4d03-bd70-04f14643380d@f9941",
+        "665685ba-0158-4548-97bf-2f0aa676dd7a@f9941",
+        "797eff29-2e6e-4030-9764-d340bd40d453",
+        "56cb44d9-1551-43a6-b08d-64137a95eabe@f9941",
+        "7a8c5138-2467-4c5c-86fe-9122a0f7125a@f9941",
+        "990f709f-ed09-42d9-a2eb-29e29b841606@f9941",
+        "54546d55-960e-4686-8e27-f6806299473d@f9941",
+        "96625a68-29e9-4664-9c25-127f8137a6ab@f9941",
+        "1daaf032-f8e1-4c8b-9515-26caa6e333a6",
+        "1a46f59b-d6cb-4e01-b6cf-20387ea10886",
+        "a94a27c6-b204-4c72-b505-9aeeee4a1f89",
+        "674bba31-277b-4fdd-b2be-250ec5fd2315",
+        "561dae89-6058-4ada-bb17-7afd9e6a9b2d@f9941",
+        "ac48a7d2-44ab-4f64-9546-cdb4c1090d56@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "b64d2f65-d880-4e72-ad52-fb1601536427",
+        "09049b69-29b2-48a5-bbdc-fab687a835a8"
+      ],
+      "dependScripts": [
+        "a00bdc2f-0af5-44c4-b513-b20e8131231d",
+        "cad1e1a7-d4b2-4c44-a5ab-42bddfd695ea",
+        "19a27875-4608-4964-b69f-906e08556a2f",
+        "2db6d2a8-dd1a-4313-a5f1-8b8282ccea70",
+        "cdd300a2-d55a-4dda-ab80-f36977c4abc7",
+        "ff07e3a0-9849-427e-a59e-fcd0578fdde5",
+        "5c3878c4-a96b-45c5-98c5-bc739c5dc7f0",
+        "0376b617-5a89-4ec6-abdc-592f38cf6cfc",
+        "8feb56f6-9d8f-48b5-9640-079cc47b8466",
+        "109a6220-ede6-4cd9-bcd8-65f3a8eb0f2b",
+        "36a80e32-9bef-4e44-831e-b2ede5919030",
+        "8cb18f7f-b321-4c4f-9f3d-5ed13c809054"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1daaf032-f8e1-4c8b-9515-26caa6e333a6": {
+    "url": "db://assets/anims/pourOutWater.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "797eff29-2e6e-4030-9764-d340bd40d453": {
+    "url": "db://assets/anims/water-material-001.mtl",
+    "value": {
+      "depends": [
+        "c8d07dec-286d-4a31-9339-531b91fd63cf",
+        "56cb44d9-1551-43a6-b08d-64137a95eabe@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6a562cf3-94b8-452a-a51c-cd9060953b41": {
+    "url": "db://assets/anims/water-material.mtl",
+    "value": {
+      "depends": [
+        "c8d07dec-286d-4a31-9339-531b91fd63cf",
+        "9b4cd33b-0337-46b7-b7c9-b7a9a2372c5c@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c443a0a4-5dd2-4663-96e3-272d6501c5ed": {
+    "url": "db://assets/resources/data/level_1.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "033ccbb9-77d6-4e39-b5c1-912b7c1092d3": {
+    "url": "db://assets/resources/data/level_2.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "09049b69-29b2-48a5-bbdc-fab687a835a8": {
+    "url": "db://assets/resources/prefab/AddEmptyGlass.prefab",
+    "value": {
+      "depends": [
+        "9df1d2b3-8d17-45c8-9700-739e3437a884",
+        "2c060704-dee6-47c3-86c9-4d1157371de8@f9941",
+        "1e0b614c-7dc5-4c72-bef2-f231f034eea3"
+      ],
+      "dependScripts": [
+        "2534d6fd-384c-4663-866a-3e3f1e01ff6d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b64d2f65-d880-4e72-ad52-fb1601536427": {
+    "url": "db://assets/resources/prefab/ExchangeItem.prefab",
+    "value": {
+      "depends": [
+        "e17b4526-57a2-48d3-acc9-cf09f30aa138",
+        "73728b37-4ca2-4cfa-adc4-53a224a97cbd@f9941"
+      ],
+      "dependScripts": [
+        "2534d6fd-384c-4663-866a-3e3f1e01ff6d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1a46f59b-d6cb-4e01-b6cf-20387ea10886": {
+    "url": "db://assets/resources/sounds/倒水1.mp3",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a94a27c6-b204-4c72-b505-9aeeee4a1f89": {
+    "url": "db://assets/resources/sounds/倒水3.mp3",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1e0b614c-7dc5-4c72-bef2-f231f034eea3": {
+    "url": "db://assets/resources/sounds/增加瓶子.mp3",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "674bba31-277b-4fdd-b2be-250ec5fd2315": {
+    "url": "db://assets/resources/sounds/瓶子.mp3",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "878899a2-ac86-4133-93bc-0b850ef19db6": {
+    "url": "db://assets/resources/images/pingzi/auto-atlas.pac",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "96625a68-29e9-4664-9c25-127f8137a6ab": {
+    "url": "db://assets/resources/images/pingzi/mask.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "32babf96-6899-408a-8dfc-9aae06da233f": {
+    "url": "db://assets/resources/images/pingzi/pingzi-di.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "990f709f-ed09-42d9-a2eb-29e29b841606": {
+    "url": "db://assets/resources/images/pingzi/pingzi-gaizi1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "7a8c5138-2467-4c5c-86fe-9122a0f7125a": {
+    "url": "db://assets/resources/images/pingzi/pingzi-light.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "54546d55-960e-4686-8e27-f6806299473d": {
+    "url": "db://assets/resources/images/pingzi/pingzigai.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "96625a68-29e9-4664-9c25-127f8137a6ab@6c48a": {
+    "url": "db://assets/resources/images/pingzi/mask.png@6c48a",
+    "value": {
+      "depends": [
+        "96625a68-29e9-4664-9c25-127f8137a6ab"
+      ]
+    },
+    "versionCode": 1
+  },
+  "32babf96-6899-408a-8dfc-9aae06da233f@6c48a": {
+    "url": "db://assets/resources/images/pingzi/pingzi-di.png@6c48a",
+    "value": {
+      "depends": [
+        "32babf96-6899-408a-8dfc-9aae06da233f"
+      ]
+    },
+    "versionCode": 1
+  },
+  "990f709f-ed09-42d9-a2eb-29e29b841606@6c48a": {
+    "url": "db://assets/resources/images/pingzi/pingzi-gaizi1.png@6c48a",
+    "value": {
+      "depends": [
+        "990f709f-ed09-42d9-a2eb-29e29b841606"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7a8c5138-2467-4c5c-86fe-9122a0f7125a@6c48a": {
+    "url": "db://assets/resources/images/pingzi/pingzi-light.png@6c48a",
+    "value": {
+      "depends": [
+        "7a8c5138-2467-4c5c-86fe-9122a0f7125a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "96625a68-29e9-4664-9c25-127f8137a6ab@f9941": {
+    "url": "db://assets/resources/images/pingzi/mask.png@f9941",
+    "value": {
+      "depends": [
+        "96625a68-29e9-4664-9c25-127f8137a6ab@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "665685ba-0158-4548-97bf-2f0aa676dd7a": {
+    "url": "db://assets/resources/images/pingzi/shui1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "54546d55-960e-4686-8e27-f6806299473d@6c48a": {
+    "url": "db://assets/resources/images/pingzi/pingzigai.png@6c48a",
+    "value": {
+      "depends": [
+        "54546d55-960e-4686-8e27-f6806299473d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "32babf96-6899-408a-8dfc-9aae06da233f@f9941": {
+    "url": "db://assets/resources/images/pingzi/pingzi-di.png@f9941",
+    "value": {
+      "depends": [
+        "32babf96-6899-408a-8dfc-9aae06da233f@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9b4cd33b-0337-46b7-b7c9-b7a9a2372c5c": {
+    "url": "db://assets/resources/images/pingzi/shui2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "54546d55-960e-4686-8e27-f6806299473d@f9941": {
+    "url": "db://assets/resources/images/pingzi/pingzigai.png@f9941",
+    "value": {
+      "depends": [
+        "54546d55-960e-4686-8e27-f6806299473d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "56cb44d9-1551-43a6-b08d-64137a95eabe": {
+    "url": "db://assets/resources/images/pingzi/shui3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "665685ba-0158-4548-97bf-2f0aa676dd7a@6c48a": {
+    "url": "db://assets/resources/images/pingzi/shui1.png@6c48a",
+    "value": {
+      "depends": [
+        "665685ba-0158-4548-97bf-2f0aa676dd7a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "990f709f-ed09-42d9-a2eb-29e29b841606@f9941": {
+    "url": "db://assets/resources/images/pingzi/pingzi-gaizi1.png@f9941",
+    "value": {
+      "depends": [
+        "990f709f-ed09-42d9-a2eb-29e29b841606@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "55370fed-376d-44b1-a98d-6bfa70a51046": {
+    "url": "db://assets/resources/images/pingzi/yingzi_white.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9b4cd33b-0337-46b7-b7c9-b7a9a2372c5c@6c48a": {
+    "url": "db://assets/resources/images/pingzi/shui2.png@6c48a",
+    "value": {
+      "depends": [
+        "9b4cd33b-0337-46b7-b7c9-b7a9a2372c5c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7a8c5138-2467-4c5c-86fe-9122a0f7125a@f9941": {
+    "url": "db://assets/resources/images/pingzi/pingzi-light.png@f9941",
+    "value": {
+      "depends": [
+        "7a8c5138-2467-4c5c-86fe-9122a0f7125a@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "665685ba-0158-4548-97bf-2f0aa676dd7a@f9941": {
+    "url": "db://assets/resources/images/pingzi/shui1.png@f9941",
+    "value": {
+      "depends": [
+        "665685ba-0158-4548-97bf-2f0aa676dd7a@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8271c987-a999-4d03-bd70-04f14643380d": {
+    "url": "db://assets/resources/images/pingzi/白色问号.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ac48a7d2-44ab-4f64-9546-cdb4c1090d56": {
+    "url": "db://assets/resources/images/道具/addGlass.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "56cb44d9-1551-43a6-b08d-64137a95eabe@6c48a": {
+    "url": "db://assets/resources/images/pingzi/shui3.png@6c48a",
+    "value": {
+      "depends": [
+        "56cb44d9-1551-43a6-b08d-64137a95eabe"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9b4cd33b-0337-46b7-b7c9-b7a9a2372c5c@f9941": {
+    "url": "db://assets/resources/images/pingzi/shui2.png@f9941",
+    "value": {
+      "depends": [
+        "9b4cd33b-0337-46b7-b7c9-b7a9a2372c5c@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f0eb8031-ac93-4f3a-8fef-b1501a194c8f": {
+    "url": "db://assets/resources/images/道具/back.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "55370fed-376d-44b1-a98d-6bfa70a51046@6c48a": {
+    "url": "db://assets/resources/images/pingzi/yingzi_white.png@6c48a",
+    "value": {
+      "depends": [
+        "55370fed-376d-44b1-a98d-6bfa70a51046"
+      ]
+    },
+    "versionCode": 1
+  },
+  "56cb44d9-1551-43a6-b08d-64137a95eabe@f9941": {
+    "url": "db://assets/resources/images/pingzi/shui3.png@f9941",
+    "value": {
+      "depends": [
+        "56cb44d9-1551-43a6-b08d-64137a95eabe@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "aeea3909-b93b-4bd4-a24d-7c3712f1670a": {
+    "url": "db://assets/resources/images/道具/begin.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "8271c987-a999-4d03-bd70-04f14643380d@6c48a": {
+    "url": "db://assets/resources/images/pingzi/白色问号.png@6c48a",
+    "value": {
+      "depends": [
+        "8271c987-a999-4d03-bd70-04f14643380d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ac48a7d2-44ab-4f64-9546-cdb4c1090d56@6c48a": {
+    "url": "db://assets/resources/images/道具/addGlass.png@6c48a",
+    "value": {
+      "depends": [
+        "ac48a7d2-44ab-4f64-9546-cdb4c1090d56"
+      ]
+    },
+    "versionCode": 1
+  },
+  "55370fed-376d-44b1-a98d-6bfa70a51046@f9941": {
+    "url": "db://assets/resources/images/pingzi/yingzi_white.png@f9941",
+    "value": {
+      "depends": [
+        "55370fed-376d-44b1-a98d-6bfa70a51046@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c7dc3278-3f38-4647-8bcf-3305f13be1a4": {
+    "url": "db://assets/resources/images/道具/end.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "8271c987-a999-4d03-bd70-04f14643380d@f9941": {
+    "url": "db://assets/resources/images/pingzi/白色问号.png@f9941",
+    "value": {
+      "depends": [
+        "8271c987-a999-4d03-bd70-04f14643380d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "561dae89-6058-4ada-bb17-7afd9e6a9b2d": {
+    "url": "db://assets/resources/images/道具/exchange.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ac48a7d2-44ab-4f64-9546-cdb4c1090d56@f9941": {
+    "url": "db://assets/resources/images/道具/addGlass.png@f9941",
+    "value": {
+      "depends": [
+        "ac48a7d2-44ab-4f64-9546-cdb4c1090d56@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "15ae819c-73fb-4413-a5c3-6d761e1ea98b": {
+    "url": "db://assets/resources/images/道具/home.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f0eb8031-ac93-4f3a-8fef-b1501a194c8f@6c48a": {
+    "url": "db://assets/resources/images/道具/back.png@6c48a",
+    "value": {
+      "depends": [
+        "f0eb8031-ac93-4f3a-8fef-b1501a194c8f"
+      ]
+    },
+    "versionCode": 1
+  },
+  "561dae89-6058-4ada-bb17-7afd9e6a9b2d@6c48a": {
+    "url": "db://assets/resources/images/道具/exchange.png@6c48a",
+    "value": {
+      "depends": [
+        "561dae89-6058-4ada-bb17-7afd9e6a9b2d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "aeea3909-b93b-4bd4-a24d-7c3712f1670a@6c48a": {
+    "url": "db://assets/resources/images/道具/begin.png@6c48a",
+    "value": {
+      "depends": [
+        "aeea3909-b93b-4bd4-a24d-7c3712f1670a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c7dc3278-3f38-4647-8bcf-3305f13be1a4@6c48a": {
+    "url": "db://assets/resources/images/道具/end.png@6c48a",
+    "value": {
+      "depends": [
+        "c7dc3278-3f38-4647-8bcf-3305f13be1a4"
+      ]
+    },
+    "versionCode": 1
+  },
+  "15ae819c-73fb-4413-a5c3-6d761e1ea98b@6c48a": {
+    "url": "db://assets/resources/images/道具/home.png@6c48a",
+    "value": {
+      "depends": [
+        "15ae819c-73fb-4413-a5c3-6d761e1ea98b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "561dae89-6058-4ada-bb17-7afd9e6a9b2d@f9941": {
+    "url": "db://assets/resources/images/道具/exchange.png@f9941",
+    "value": {
+      "depends": [
+        "561dae89-6058-4ada-bb17-7afd9e6a9b2d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "21fb3f1f-3910-4dd9-a115-3de2e2142c61": {
+    "url": "db://assets/resources/images/道具/restart.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f0eb8031-ac93-4f3a-8fef-b1501a194c8f@f9941": {
+    "url": "db://assets/resources/images/道具/back.png@f9941",
+    "value": {
+      "depends": [
+        "f0eb8031-ac93-4f3a-8fef-b1501a194c8f@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "15ae819c-73fb-4413-a5c3-6d761e1ea98b@f9941": {
+    "url": "db://assets/resources/images/道具/home.png@f9941",
+    "value": {
+      "depends": [
+        "15ae819c-73fb-4413-a5c3-6d761e1ea98b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "aeea3909-b93b-4bd4-a24d-7c3712f1670a@f9941": {
+    "url": "db://assets/resources/images/道具/begin.png@f9941",
+    "value": {
+      "depends": [
+        "aeea3909-b93b-4bd4-a24d-7c3712f1670a@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c7dc3278-3f38-4647-8bcf-3305f13be1a4@f9941": {
+    "url": "db://assets/resources/images/道具/end.png@f9941",
+    "value": {
+      "depends": [
+        "c7dc3278-3f38-4647-8bcf-3305f13be1a4@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "21fb3f1f-3910-4dd9-a115-3de2e2142c61@6c48a": {
+    "url": "db://assets/resources/images/道具/restart.png@6c48a",
+    "value": {
+      "depends": [
+        "21fb3f1f-3910-4dd9-a115-3de2e2142c61"
+      ]
+    },
+    "versionCode": 1
+  },
+  "21fb3f1f-3910-4dd9-a115-3de2e2142c61@f9941": {
+    "url": "db://assets/resources/images/道具/restart.png@f9941",
+    "value": {
+      "depends": [
+        "21fb3f1f-3910-4dd9-a115-3de2e2142c61@6c48a"
+      ]
+    },
+    "versionCode": 1
+  }
+}

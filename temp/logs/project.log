@@ -1,0 +1,56 @@
+12-11-2025 13:28:14 - log: Load engine in /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine
+12-11-2025 13:28:14 - log: Register native engine in /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+12-11-2025 13:28:15 - log: Request namespace: device-list
+12-11-2025 13:28:24 - info: [PreviewInEditor] 预览环境初始化完毕
+12-11-2025 13:28:26 - log: [Scene] meshopt wasm decoder initialized
+12-11-2025 13:28:26 - log: [Scene] [box2d]:box2d wasm lib loaded.
+12-11-2025 13:28:27 - log: [Scene] [bullet]:bullet wasm lib loaded.
+12-11-2025 13:28:27 - log: [Scene] [PHYSICS]: using builtin.
+12-11-2025 13:28:27 - log: [Scene] Cocos Creator v3.8.3
+12-11-2025 13:28:27 - info: [Scene] Forward render pipeline initialized.
+12-11-2025 13:28:28 - log: [Scene] [PHYSICS]: switch from builtin to bullet.
+12-11-2025 13:28:28 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+12-11-2025 13:28:31 - log: [PreviewInEditor] meshopt wasm decoder initialized
+12-11-2025 13:28:31 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+12-11-2025 13:28:31 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+12-11-2025 13:28:32 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+12-11-2025 13:28:32 - log: [PreviewInEditor] Cocos Creator v3.8.3
+12-11-2025 13:28:32 - info: [PreviewInEditor] Forward render pipeline initialized.
+12-11-2025 13:28:32 - log: [PreviewInEditor] [PHYSICS]: switch from builtin to bullet.
+12-11-2025 13:28:32 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+12-11-2025 13:28:35 - log: [PreviewInEditor] 点击开始游戏
+12-11-2025 13:28:35 - log: [PreviewInEditor] StVwFunland
+12-11-2025 13:28:35 - log: [PreviewInEditor] 开始加载新关卡...
+12-11-2025 13:28:35 - error: [PreviewInEditor] 无法重启关卡：关键组件或数据丢失！Error: [PreviewInEditor] 无法重启关卡：关键组件或数据丢失！
+    at VwPlay.restartLevel (file:///Users/songxiangying/Desktop/cc1234223/temp/programming/packer-driver/targets/editor/chunks/2d/file:/Users/songxiangying/Desktop/cc1234223/assets/core/VwPlay.ts:83:21)
+    at VwPlay.start (file:///Users/songxiangying/Desktop/cc1234223/temp/programming/packer-driver/targets/editor/chunks/2d/file:/Users/songxiangying/Desktop/cc1234223/assets/core/VwPlay.ts:47:18)
+    at eval (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:61383:16)
+    at OneOffInvoker.eval [as _invoke] (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:61213:9)
+    at OneOffInvoker.invoke (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:61329:16)
+    at ComponentScheduler.startPhase (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:61561:29)
+    at Director.tick (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:19132:35)
+12-11-2025 13:28:35 - log: [PreviewInEditor] 新关卡加载完成，切换锁解除
+12-11-2025 13:28:36 - log: [Scene] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
+    at DirectionalLightIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
+    at Array.forEach (<anonymous>)
+    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
+    at Array.forEach (<anonymous>)
+    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
+    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
+    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
+12-11-2025 13:28:36 - error: [Window] Cannot read property 'updateSize' of undefinedTypeError: Cannot read property 'updateSize' of undefined
+    at <process:scene>
+    at DirectionalLightIconGizmo.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/components/base/gizmo-icon.ccc:1:1035)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9279
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1027
+    at Array.forEach (<anonymous>)
+    at walkNodeComponent (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/hack-component.ccc:1:1015)
+    at /Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9227
+    at Array.forEach (<anonymous>)
+    at GizmoManager.setIconGizmoSize (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:9148)
+    at GizmoManager.initFromConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/gizmos/manager/gizmo.ccc:1:10886)
+    at SceneFacadeManager.initSceneConfig (/Applications/Cocos/Creator/3.8.3/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:28626)
+12-11-2025 13:28:38 - info: [PreviewInEditor] 预览环境初始化完毕
